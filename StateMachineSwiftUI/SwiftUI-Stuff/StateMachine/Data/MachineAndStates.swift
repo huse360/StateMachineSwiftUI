@@ -41,7 +41,7 @@
 
     /// layout="dot";
 
-    /// nodesep = 2;
+    /// nodesep = 4;
     /// minlen = 100;
     /// start = 13;
     /// node [shape = egg];
@@ -107,7 +107,7 @@ struct MachineAndStates: MachineAndStatesProtocol {
         .goBack : .room3,
     ]
     machine[.treasure] = [
-      .restart: .initial
+      .restart: .desert
     ]
     ///#EndStates
     return machine
