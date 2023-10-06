@@ -19,6 +19,8 @@ class ViewController: UIViewController {
   
   @IBAction func touchUpInsideStartButton(_ sender: UIButton) {
     debugPrint("Hello")
+    machineView.modalPresentationStyle = .fullScreen
+    machineView.rootView.resetMachine()
     present(machineView, animated: true)
   }
   

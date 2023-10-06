@@ -7,18 +7,6 @@
 
 import SwiftUI
 
-//struct MachineViewHolder: View {
-//  @Environment(\.presentationMode) var presentationMode
-//  var body: some View {
-//    VStack {
-//      Text("SwiftUI view")
-//      Button("Back") {
-//        presentationMode.wrappedValue.dismiss()
-//      }
-//    }
-//  }
-//}
-
 struct MachineViewHolder: View {
   @Environment(\.presentationMode) var presentationMode
   let viewModel: MachineViewModel = MachineViewModel()
@@ -51,6 +39,7 @@ struct MachineViewHolder: View {
         messageSent: $newMessage) {
           if viewModel.currentState == .treasure {
             presentationMode.wrappedValue.dismiss()
+            return
           }
           withAnimation(.easeOut) {
             self.push.toggle()
@@ -67,11 +56,15 @@ struct MachineViewHolder: View {
         data: viewModel.getCurrentData(),
         title: viewModel.currentState.rawValue,
         messages: viewModel.getCurrentMessages(),
-        messageSent: $newMessage) {
-        }
-      }
+        messageSent: $newMessage) {}
     }
   }
+  
+  func resetMachine() {
+    viewModel.currentState = .initial
+    self.push.toggle()
+  }
+}
 
 struct MachineViewHolder_Previews: PreviewProvider {
     static var previews: some View {

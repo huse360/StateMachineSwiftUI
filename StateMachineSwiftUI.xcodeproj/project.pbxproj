@@ -27,7 +27,6 @@
 		CFDB8E502ACBD8CE00109D41 /* ImageNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDB8E4B2ACBD8CE00109D41 /* ImageNames.swift */; };
 		CFDB8E512ACBD8CE00109D41 /* MessageID.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDB8E4C2ACBD8CE00109D41 /* MessageID.swift */; };
 		CFDB8E562ACBD92F00109D41 /* MachineViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDB8E532ACBD92F00109D41 /* MachineViewModelProtocol.swift */; };
-		CFDB8E572ACBD92F00109D41 /* MachineBuildViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDB8E542ACBD92F00109D41 /* MachineBuildViewProtocol.swift */; };
 		CFDB8E582ACBD92F00109D41 /* MachineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDB8E552ACBD92F00109D41 /* MachineViewModel.swift */; };
 		CFDB8E5D2ACBD9ED00109D41 /* AnyTransition+Slides.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDB8E5C2ACBD9ED00109D41 /* AnyTransition+Slides.swift */; };
 		CFDB8E5F2ACBDA5800109D41 /* MachineViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDB8E5E2ACBDA5800109D41 /* MachineViewBase.swift */; };
@@ -60,7 +59,6 @@
 		CFDB8E4B2ACBD8CE00109D41 /* ImageNames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageNames.swift; sourceTree = "<group>"; };
 		CFDB8E4C2ACBD8CE00109D41 /* MessageID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageID.swift; sourceTree = "<group>"; };
 		CFDB8E532ACBD92F00109D41 /* MachineViewModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MachineViewModelProtocol.swift; sourceTree = "<group>"; };
-		CFDB8E542ACBD92F00109D41 /* MachineBuildViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MachineBuildViewProtocol.swift; sourceTree = "<group>"; };
 		CFDB8E552ACBD92F00109D41 /* MachineViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MachineViewModel.swift; sourceTree = "<group>"; };
 		CFDB8E5C2ACBD9ED00109D41 /* AnyTransition+Slides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnyTransition+Slides.swift"; sourceTree = "<group>"; };
 		CFDB8E5E2ACBDA5800109D41 /* MachineViewBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineViewBase.swift; sourceTree = "<group>"; };
@@ -175,7 +173,6 @@
 		CFDB8E592ACBD97100109D41 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				CFDB8E542ACBD92F00109D41 /* MachineBuildViewProtocol.swift */,
 				CFDB8E552ACBD92F00109D41 /* MachineViewModel.swift */,
 				CFDB8E532ACBD92F00109D41 /* MachineViewModelProtocol.swift */,
 			);
@@ -318,7 +315,6 @@
 				CFF968C82ACBD05400D2F1E0 /* ViewController.swift in Sources */,
 				CFDB8E2C2ACBD83900109D41 /* MachineTypes.swift in Sources */,
 				CFF968C42ACBD05400D2F1E0 /* AppDelegate.swift in Sources */,
-				CFDB8E572ACBD92F00109D41 /* MachineBuildViewProtocol.swift in Sources */,
 				CFF968C62ACBD05400D2F1E0 /* SceneDelegate.swift in Sources */,
 				CFDB8E342ACBD88800109D41 /* LargeButton.swift in Sources */,
 				CFDB8E5D2ACBD9ED00109D41 /* AnyTransition+Slides.swift in Sources */,
